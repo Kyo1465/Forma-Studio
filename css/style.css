@@ -421,29 +421,54 @@ input::placeholder {
 }
 
 
+.request {
+    padding-bottom: 150px;
+}
 
+.request__inner {
+    background-image: url(../images/request-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 184px 0;
+}
 
+.request__inner-form {
+    background-color: rgba(23, 23, 23, 0.85);
+    padding: 75px 115px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
 
+.request__title {
+    color: #F5F5F5;
+}
 
+.request__form {
+    display: flex;
+}
 
+.request__form-input {
+    display: inline-block;
+    padding: 20px;
+    border: none;
+    background-color: #d9d9d9;
+    font-size: 18px;
+    line-height: 1.16;
+    font-weight: 100;
+    width: 100%;
+    color: #2b2b2b;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.request__form-btn {
+    background-color: #F5F5F5;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 1.16;
+    font-weight: 300;
+    padding: 20px 50px;
+    width: 360px;
+}
 
 
 
@@ -555,6 +580,24 @@ input::placeholder {
     }
     .gallery {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .request {
+        padding-bottom: 50px;
+    }
+    .request__inner {
+        padding: 85px 0;
+    }
+    .request__form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .request__form-btn {
+        width: 100%;
+    }
+    .request__inner-form {
+        padding: 50px 10px;
     }
 }
 
